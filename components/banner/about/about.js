@@ -32,7 +32,7 @@ export default function About () {
                 <div className={style.cards}>
                     {Cards.map((el, i) => {
                         return (
-                            <article className={style.card}>
+                            <article key={i} className={style.card}>
                                 <span>
                                     <img src={`/assets/icon/${el.icon}`}/>
                                 </span>
