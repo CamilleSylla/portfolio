@@ -1,4 +1,5 @@
 import style from './banner.module.scss'
+import Illustration from './Illustration/illustration'
 import Social from './social/social'
 import Title from './title/title.js'
 
@@ -9,6 +10,7 @@ export default function Banner () {
             <div className={style.layer}></div>
             <Social/>
             <Title/>
+            <Illustration/>
         </section>
     )
 }
