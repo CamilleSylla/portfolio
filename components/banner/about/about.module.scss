@@ -1,0 +1,74 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4658E8;
+    color: white;
+    .content_wrapper {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        .cards {
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2vw;
+            row-gap: 2vw;
+            .card {
+                width: 100%;
+                height: 30vh;
+                background: #46ADE8;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 3px solid #4DEDFF;
+                text-align: center;
+                h1 {
+                    font-size: 1.5rem;
+                }
+                p {
+                    width: 80%;
+                }
+                span {
+                    margin-top: 1vw;
+                    display: flex;
+                    width: 5vw;
+                    height: 5vw;
+                    border-radius: 50%;
+                    background: #4DEDFF;
+                    justify-content: center;
+                    align-items: center;
+                    border: 3px solid #694DFF;
+                    img {
+                        height: 50%;
+                        width: auto;
+                    }
+                }
+            }
+        }
+        .content {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            span {
+                text-transform: uppercase;
+                font-size: .8rem;
+                color: #4DEDFF;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            button {
+                width: initial;
+                align-self: flex-start;
+            background: #4DEDFF;
+            color: #694DFF;
+            }
+        }
+    }
+}

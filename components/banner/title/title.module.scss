@@ -1,0 +1,14 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 20vw;
+    transform: translate3d(0, -50%, 0);
+    width: 50%;
+    p{
+        width: 80%;
+    }
+    button {
+        background: #4658E8;
+        color: white;
+    }
+}
